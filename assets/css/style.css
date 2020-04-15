@@ -8,6 +8,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body{
+  background: url('../image/bg3.jpg') no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+}
+
 .wrapper{
   position: absolute;
   top: 50%;
@@ -17,7 +23,7 @@
 }
 
 h1{
-    color: #fff;
+    color: #ffffff;
 }
 
 .covid-form{
@@ -52,7 +58,7 @@ h1{
   width: 100%;
 }
 .select{
-    color: #000;
+    color: #000000;
 }
 
 .msg textarea{
@@ -77,13 +83,13 @@ h1{
     text-align: center;
     padding: 15px;
     border-radius: 5px;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     text-transform: uppercase;
 }
 
 @media screen and (max-width: 600px){
-  .contact-form{
+  .covid-form{
     flex-direction: column;
   }
   .msg textarea{
