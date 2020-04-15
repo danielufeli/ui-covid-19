@@ -79,11 +79,11 @@ h1{
 }
 
 .btn {
-    background: #39b7dd;
+    background: #ffffff;
     text-align: center;
     padding: 15px;
     border-radius: 5px;
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
     text-transform: uppercase;
 }
