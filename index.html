@@ -10,8 +10,9 @@
     <div class="wrapper">
       <div class="covid-form">
         <div class="input-fields">
-            <h1>Covid-19 Estimator</h1>
+          <h1>Covid-19 Estimator</h1>
           <form action="">
+            <label for="population"></label>
             <input
               type="text"
               class="input"
@@ -20,22 +21,25 @@
               id="population"
               data-population=""
             />
+            <label for="timeToElapse"></label>
             <input
               type="text"
               class="input"
               name="timeToElapse"
               placeholder="Time To Elapse"
-              id="population"
+              id="timeToElapse"
               data-time-to-elapse=""
             />
+            <label for="reportedCases"></label>
             <input
               type="text"
               class="input"
               name="reportedCases"
               placeholder="Reported Cases"
-              id="population"
+              id="reportedCases"
               data-reported-cases=""
             />
+            <label for="totalHospitalBeds"></label>
             <input
               type="text"
               name="totalHospitalBeds"
@@ -44,15 +48,25 @@
               placeholder="Total Hospital Beds"
               data-total-hospital-beds=""
             />
-            <select class="input" id="periodType" name="periodType" data-period-type="">
-                <option class="input" value="days">Choose a Period:</option>
-              <option class="input" value="days">Days</option>
-              <option class="input" value="weeks">Weeks</option>
-              <option class="input" value="months">Months</option>
-            </select>            
+            <label for="periodType"></label>
+            <select
+              class="input"
+              id="periodType"
+              name="periodType"
+              data-period-type=""
+            >
+              <option class="select" value="days">Choose a Period:</option>
+              <option class="select" value="days">Days</option>
+              <option class="select" value="weeks">Weeks</option>
+              <option class="select" value="months">Months</option>
+            </select>
             <div class="msg">
-                <div><button type="submit" data-go-estimate="" class="btn">Submit</button></div>
+              <div>
+                <button type="submit" data-go-estimate="" class="btn">
+                  Submit
+                </button>
               </div>
+            </div>
           </form>
         </div>
       </div>

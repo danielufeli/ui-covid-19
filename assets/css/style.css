@@ -57,6 +57,9 @@ h1{
   color: #c5ecfd;
   width: 100%;
 }
+.select{
+    color: #000;
+}
 
 .msg textarea{
   height: 212px;
