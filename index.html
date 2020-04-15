@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19 Estimator</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="covid-form">
+        <div class="input-fields">
+            <h1>Covid-19 Estimator</h1>
+          <form action="">
+            <input
+              type="text"
+              class="input"
+              placeholder="Population"
+              name="population"
+              id="population"
+              data-population=""
+            />
+            <input
+              type="text"
+              class="input"
+              name="timeToElapse"
+              placeholder="Time To Elapse"
+              id="population"
+              data-time-to-elapse=""
+            />
+            <input
+              type="text"
+              class="input"
+              name="reportedCases"
+              placeholder="Reported Cases"
+              id="population"
+              data-reported-cases=""
+            />
+            <input
+              type="text"
+              name="totalHospitalBeds"
+              class="input"
+              id="population"
+              placeholder="Total Hospital Beds"
+              data-total-hospital-beds=""
+            />
+            <select class="input" id="periodType" name="periodType" data-period-type="">
+                <option class="input" value="days">Choose a Period:</option>
+              <option class="input" value="days">Days</option>
+              <option class="input" value="weeks">Weeks</option>
+              <option class="input" value="months">Months</option>
+            </select>            
+            <div class="msg">
+                <div><button type="submit" data-go-estimate="" class="btn">Submit</button></div>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
