@@ -8,12 +8,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-body{
-  background: url('../image/bg3.jpg') no-repeat top center;
-  background-size: cover;
-  height: 100vh;
-}
-
 .wrapper{
   position: absolute;
   top: 50%;
